@@ -1,5 +1,10 @@
 import express from "express";
 import Employee from "./employee";
+import { Client } from 'pg';
+import { DataSource } from "typeorm";
+import { SnakeNamingStrategy } from "typeorm-naming-strategies";
+import dataSource from "./data-source";
+import employee from "./employee";
 
 const employeeRouter = express.Router();
 let count=2;
@@ -20,44 +25,76 @@ const employees : Employee[]=[{
 
 
 
-employeeRouter.get('/', (req, res)=>{
-    console.log(req.url);
+employeeRouter.get('/', async (req, res)=>{
+    const employeeRepository= dataSource.getRepository(Employee);
+    const employees = await employeeRepository.find();
     res.status(200).send(employees);
-})
+});
 
-employeeRouter.get('/:id', (req, res)=>{
-    console.log(req.url);
-    const employeeid:number = Number(req.params.id);
-    res.status(200).send(employees.find((emp)=> {
-        return employeeid== emp.id;
-    }));
-})
+employeeRouter.get('/:id', async (req, res)=>{
+     
+    const employeeRepository= dataSource.getRepository(Employee);
+    const employee= await employeeRepository.findOneBy({
+        id:Number (req.params.id)
+    });
 
-employeeRouter.post('/', (req, res)=>{
-    console.log(req.url);
+    res.status(200).send(employee);
+
+});
+
+
+
+    // const result = await client.query("SELECT * FROM employees WHERE ID=$1",[
+    //     req.params.id
+    // ]);
+    // const employee= result.rows[0];
+    // res.status(200).send(employee);
+    // console.log(req.url);
+    // const employeeid:number = Number(req.params.id);
+    // res.status(200).send(employees.find((emp)=> {
+    //     return employeeid== emp.id;
+    // }));
+
+employeeRouter.post('/', async (req, res)=>{
     const newEmployee= new Employee()
     newEmployee.email=req.body.email;
     newEmployee.name=req.body.name;
-    newEmployee.id=++count;
-    newEmployee.created_at=new Date;
-    newEmployee.updated_at=new Date;
-    employees.push(newEmployee);
-    res.status(200).send(newEmployee);
-})
+    
+    const employeeRepository= dataSource.getRepository(Employee);
+    const savedemployee = await employeeRepository.save(newEmployee);
+    res.status(200).send(savedemployee);
 
-employeeRouter.put('/:id', (req, res)=>{
-    console.log(req.url);
-    const employeeid:number = Number(req.params.id);
-    const myemp= employees.find((emp)=> {
-    return employeeid== emp.id
+});
+
+
+
+
+employeeRouter.put('/:id', async (req, res)=>{
+    const employeeRepository= dataSource.getRepository(Employee);
+
+    const myemp= await employeeRepository.findOneBy({
+        id:Number (req.params.id)
     });
     myemp.email=req.body.email;
     myemp.name=req.body.name;
     myemp.updated_at=new Date();
-    myemp.created_at=new Date();
 
-    res.status(200).send(employees);
-})
+    const savedemployee = await employeeRepository.save(myemp);
+
+    res.status(200).send(savedemployee);
+});
+
+employeeRouter.delete('/:id', async (req, res)=>{
+    const employeeRepository= dataSource.getRepository(Employee);
+
+    const myemp= await employeeRepository.findOneBy({
+        id:Number (req.params.id)
+    });
+
+    const savedemployee = await employeeRepository.remove(myemp);
+
+    res.status(200).send();
+});
 
 // employeeRouter.delete('/:id', (req, res)=>{
 //     console.log(req.url);

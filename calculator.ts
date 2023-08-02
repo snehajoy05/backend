@@ -24,10 +24,4 @@ export class Calculator implements CalculatorInterface{
         return (a*percentage)/100;
     }
 
-
-
-
-
-
-
 }

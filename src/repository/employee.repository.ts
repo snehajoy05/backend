@@ -9,11 +9,22 @@ class EmployeeRepository{
         return this.employeeRepository.find();
     }
     findOneBy(id:number):Promise<Employee>{
-        return this.employeeRepository.findOneBy({
-                id:id,
+        return this.employeeRepository.findOne({
+                where:{id:id},
+                relations:{
+                    address:true,
+                },
             });
-    }
+    };
     createEmployee(employee:Employee):Promise<Employee>{
+        return this.employeeRepository.save(employee);
+    }
+
+    async deleteEmployee(employee:Employee):Promise<Employee>{
+        return this.employeeRepository.softRemove(employee);
+    }
+
+    async updateEmployee(employee: Employee): Promise<Employee> {
         return this.employeeRepository.save(employee);
     }
 }

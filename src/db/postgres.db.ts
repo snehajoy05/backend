@@ -10,7 +10,7 @@ const dataSource = new DataSource({
     username: "postgres",
     password: "password",
     database: "training",
-    entities: [Employee],
+    entities: ["dist/src/entity/*.js"],
     migrations:["dist/src/db/migrations/*.js"],
     logging: true,
     namingStrategy:new SnakeNamingStrategy(),

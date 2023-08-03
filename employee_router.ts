@@ -1,33 +1,30 @@
 import express from "express";
 import Employee from "./employee";
 import { Client } from 'pg';
-import { DataSource } from "typeorm";
+import { DataSource, FindOptionsWhere, Like } from "typeorm";
 import { SnakeNamingStrategy } from "typeorm-naming-strategies";
 import dataSource from "./data-source";
 import employee from "./employee";
 
 const employeeRouter = express.Router();
-let count=2;
-const employees : Employee[]=[{
-    id:412,
-    name:"sneha",
-    email:"sneha@gmail.com",
-    created_at:new Date(),
-    updated_at:new Date()
-},
-{
-    id:413,
-    name:"tans",
-    email:"tans@gmail.com",
-    created_at:new Date(),
-    updated_at:new Date()
-}];
 
 
 
 employeeRouter.get('/', async (req, res)=>{
+    const nameFilter = req.query.name as string;
+    const emailFilter = req.query.email as string;
     const employeeRepository= dataSource.getRepository(Employee);
-    const employees = await employeeRepository.find();
+    
+    const qb=employeeRepository.createQueryBuilder();
+    if(nameFilter){
+        qb.andWhere("name Like :name", {name:`${nameFilter}%`})
+    }
+    if(emailFilter){
+        qb.andWhere("email Like :email", {email:`${emailFilter}%`})
+
+    }
+    
+    const employees = await qb.getMany();
     res.status(200).send(employees);
 });
 
@@ -90,8 +87,9 @@ employeeRouter.delete('/:id', async (req, res)=>{
     const myemp= await employeeRepository.findOneBy({
         id:Number (req.params.id)
     });
+    console.log(myemp);
 
-    const savedemployee = await employeeRepository.remove(myemp);
+    const savedemployee = await employeeRepository.softRemove(myemp);
 
     res.status(200).send();
 });
@@ -119,3 +117,7 @@ employeeRouter.patch('/:id', (req, res)=>{
 
 
 export {employeeRouter};
+
+function like(arg0: string): string | import("typeorm").FindOperator<string> {
+    throw new Error("Function not implemented.");
+}

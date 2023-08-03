@@ -12,6 +12,9 @@ class Employee{
     @Column()
     email:string;
 
+    @Column({nullable: true})
+    age:number;
+
     @CreateDateColumn()
     created_at:Date;
 

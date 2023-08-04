@@ -1,6 +1,6 @@
 import express from "express";
 import HttpException from "../exception/http.exception";
-import {ValidationException} from "../exception/validation.exception";
+import ValidationException from "../exception/validation.exception";
 
 
 const errorMiddleware=(
@@ -11,7 +11,7 @@ const errorMiddleware=(
         if (error instanceof ValidationException) {
             res.status(error.status).send({
                 message: error.message,
-                ...error.errors,
+                errors:error.errors,
             });
         }
         else if(error instanceof HttpException){

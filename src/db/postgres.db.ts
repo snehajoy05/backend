@@ -5,16 +5,16 @@ import Employee from "../entity/employee.entity";
 
 const dataSource = new DataSource({
     type: "postgres",
-    host: "localhost",
+    host: process.env.POSTGRES_HOST,
     port: 8765,
-    username: "postgres",
-    password: "password",
+    username: process.env.POSTGRES_USERNAME,
+    password: process.env.POSTGRES_PASSWORD,
     database: "training",
     entities: ["dist/src/entity/*.js"],
     migrations:["dist/src/db/migrations/*.js"],
     logging: true,
     namingStrategy:new SnakeNamingStrategy(),
-    synchronize:true
+    synchronize:false
 });
 
 export default dataSource;

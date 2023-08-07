@@ -8,6 +8,22 @@ line1:string;
 
 @IsNotEmpty()
 @IsString()
-pin:string;
+line2: string;
+
+@IsNotEmpty()
+@IsString()
+city: string;
+
+@IsNotEmpty()
+@IsString()
+state: string;
+
+@IsNotEmpty()
+@IsString()
+country: string;
+
+@IsNotEmpty()
+@IsString()
+pin: string;
 }
 export default CreateAddressDto;

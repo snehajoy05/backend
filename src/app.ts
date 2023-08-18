@@ -1,5 +1,6 @@
 import * as dotenv from "dotenv";
 dotenv.config({path:__dirname+'/.env'});
+import cors from 'cors';
 
 import "reflect-metadata";
 import express from "express";
@@ -12,11 +13,12 @@ import departmentRoute from "./route/department.route";
 import { Role } from "./utils/role.enum";
 
 const server = express();
+server.use(cors());
 server.use(express.json());
 server.use(loggerMiddleware);
 server.use('/employees',employeeRoute);
 server.use('/departments',departmentRoute);
-
+//server.use('/roles',roleRoute)
 server.get("/roles", (req,res)=>{
     res.status(200).send(Role)
   })
@@ -26,8 +28,8 @@ server.use(errorMiddleware);
     try {
         await dataSource.initialize();
         
-        server.listen(3000, ()=>{
-            console.log("Server is listening to 3000")
+        server.listen(3001, ()=>{
+            console.log("Server is listening to 3001")
         })
         
     } catch (error) {

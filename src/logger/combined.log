@@ -1,2 +1,439 @@
 [2023-08-07T11:18:38.965Z] undefined [31merror[39m: error has occured 
 [2023-08-07T11:18:51.447Z] undefined [32minfo[39m: employee created
+[2023-08-16T10:31:52.529Z] undefined [32minfo[39m: user has logged in
+[2023-08-16T10:43:50.614Z] undefined [32minfo[39m: all employees obtained
+[2023-08-16T11:40:28.162Z] undefined [32minfo[39m: user has logged in
+[2023-08-16T11:50:08.100Z] undefined [32minfo[39m: user has logged in
+[2023-08-16T12:10:21.901Z] undefined [32minfo[39m: user has logged in
+[2023-08-16T12:14:05.692Z] undefined [32minfo[39m: user has logged in
+[2023-08-16T12:14:22.753Z] undefined [32minfo[39m: user has logged in
+[2023-08-16T12:15:13.791Z] undefined [32minfo[39m: user has logged in
+[2023-08-16T12:17:17.286Z] undefined [32minfo[39m: user has logged in
+[2023-08-16T12:19:13.484Z] undefined [32minfo[39m: user has logged in
+[2023-08-16T12:21:14.009Z] undefined [32minfo[39m: user has logged in
+[2023-08-16T12:22:04.039Z] undefined [32minfo[39m: user has logged in
+[2023-08-16T12:22:48.905Z] undefined [32minfo[39m: user has logged in
+[2023-08-16T12:22:51.689Z] undefined [32minfo[39m: user has logged in
+[2023-08-16T12:22:51.998Z] undefined [32minfo[39m: user has logged in
+[2023-08-16T12:22:52.184Z] undefined [32minfo[39m: user has logged in
+[2023-08-16T12:22:52.331Z] undefined [32minfo[39m: user has logged in
+[2023-08-16T12:22:52.484Z] undefined [32minfo[39m: user has logged in
+[2023-08-16T12:23:28.190Z] undefined [32minfo[39m: user has logged in
+[2023-08-16T12:28:51.101Z] undefined [32minfo[39m: user has logged in
+[2023-08-16T12:51:02.556Z] undefined [32minfo[39m: all employees obtained
+[2023-08-16T12:52:52.727Z] undefined [32minfo[39m: all employees obtained
+[2023-08-16T12:53:12.525Z] undefined [32minfo[39m: all employees obtained
+[2023-08-16T12:53:13.582Z] undefined [32minfo[39m: all employees obtained
+[2023-08-16T12:53:36.241Z] undefined [32minfo[39m: all employees obtained
+[2023-08-16T12:53:38.675Z] undefined [32minfo[39m: all employees obtained
+[2023-08-16T12:53:39.465Z] undefined [32minfo[39m: all employees obtained
+[2023-08-16T12:54:50.384Z] undefined [32minfo[39m: all employees obtained
+[2023-08-16T12:54:57.540Z] undefined [32minfo[39m: all employees obtained
+[2023-08-16T12:54:58.388Z] undefined [32minfo[39m: all employees obtained
+[2023-08-16T12:55:08.176Z] undefined [32minfo[39m: all employees obtained
+[2023-08-16T13:01:51.847Z] undefined [32minfo[39m: all employees obtained
+[2023-08-16T13:02:37.856Z] undefined [32minfo[39m: all employees obtained
+[2023-08-16T13:03:43.386Z] undefined [32minfo[39m: all employees obtained
+[2023-08-16T13:04:11.185Z] undefined [32minfo[39m: all employees obtained
+[2023-08-16T13:04:13.549Z] undefined [32minfo[39m: all employees obtained
+[2023-08-16T13:04:29.197Z] undefined [32minfo[39m: all employees obtained
+[2023-08-16T13:04:29.755Z] undefined [32minfo[39m: all employees obtained
+[2023-08-16T13:04:33.198Z] undefined [32minfo[39m: all employees obtained
+[2023-08-16T13:05:01.079Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T04:24:22.683Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T04:27:35.935Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T04:29:45.370Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T04:29:50.023Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T04:36:27.853Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T04:36:27.923Z] undefined [32minfo[39m: user has logged in
+[2023-08-17T04:48:38.669Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T04:50:38.719Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T04:50:39.993Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T04:56:04.127Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T04:56:05.231Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T04:56:10.021Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T05:20:03.942Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T05:21:02.842Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T05:21:02.897Z] undefined [32minfo[39m: user has logged in
+[2023-08-17T05:31:38.995Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T05:31:41.588Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T05:31:43.094Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T05:31:46.071Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T05:32:01.887Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T06:52:15.090Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T07:03:08.259Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T07:03:11.345Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T07:04:15.486Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T07:06:43.100Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T07:13:54.370Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T08:09:20.227Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T08:10:07.090Z] undefined [32minfo[39m: user has logged in
+[2023-08-17T08:31:26.500Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T09:00:06.970Z] undefined [32minfo[39m: user has logged in
+[2023-08-17T09:00:32.554Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T09:02:37.283Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T09:05:43.300Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T09:08:24.726Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:08:37.767Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T09:10:16.861Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:22.863Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:32.764Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:56.706Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:56.710Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:56.720Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:56.721Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:56.739Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:56.740Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:56.795Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:56.808Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:56.809Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:56.814Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:56.851Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:56.851Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:56.868Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:56.877Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:56.903Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:56.906Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:56.922Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:56.935Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:56.957Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:56.962Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:56.971Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:56.982Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.017Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.017Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.031Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.033Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.070Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.072Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.084Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.084Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.126Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.126Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.139Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.140Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.186Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.194Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.205Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.207Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.236Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.236Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.259Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.259Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.289Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.289Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.303Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.312Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.341Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.344Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.365Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.392Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.417Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.429Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.431Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.435Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.463Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.476Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.488Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.497Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.517Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.531Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.541Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.550Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.575Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.588Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.596Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.603Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.633Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.647Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.647Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.657Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.686Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.701Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.701Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.713Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.742Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.752Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.752Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.769Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.799Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.806Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.808Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.826Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.857Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.861Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.867Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.882Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.903Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.913Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.924Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.932Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.955Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.964Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.976Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:57.984Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:58.008Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:58.018Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:58.030Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:58.037Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:58.061Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:58.074Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:58.081Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:58.089Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:58.111Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:10:58.120Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:11:43.696Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:13:05.035Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:13:36.301Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:14:04.445Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:14:52.403Z] undefined [32minfo[39m: employee created
+[2023-08-17T09:15:23.701Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T09:15:26.704Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T09:16:07.774Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T10:03:55.977Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T10:10:21.999Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T10:10:24.009Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T10:10:26.348Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T10:18:24.801Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T10:18:26.007Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T10:18:31.313Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T10:18:41.028Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T10:18:43.050Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T10:18:46.501Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T10:21:00.778Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T10:22:07.507Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T10:30:49.815Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T10:33:18.029Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T10:40:15.734Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T10:49:30.556Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T10:50:21.742Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T10:51:43.657Z] undefined [31merror[39m: error has occured 
+[2023-08-17T10:51:45.502Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T10:55:09.324Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T10:55:13.033Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T10:58:40.551Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T10:59:04.795Z] undefined [32minfo[39m: user has logged in
+[2023-08-17T10:59:38.137Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T10:59:44.284Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T10:59:47.846Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T10:59:51.873Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T10:59:56.266Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T11:00:06.622Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T11:00:50.120Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T11:20:22.778Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T11:26:32.458Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T11:33:06.372Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T11:48:20.954Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T11:56:43.439Z] undefined [31merror[39m: error has occured 
+[2023-08-17T12:00:38.919Z] undefined [31merror[39m: error has occured 
+[2023-08-17T12:08:25.693Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T12:27:39.435Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T12:27:41.080Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T12:27:42.778Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T12:38:06.651Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T12:39:42.026Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T12:40:18.251Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T12:43:00.885Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T12:44:38.733Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T12:54:13.153Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T12:55:18.782Z] undefined [31merror[39m: error has occured 
+[2023-08-17T12:56:01.570Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T15:38:30.557Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T15:38:52.735Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:39:03.890Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:39:08.296Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:39:14.444Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:39:21.193Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:39:26.261Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:39:30.863Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:39:37.901Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:39:44.647Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:39:49.690Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:39:56.370Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:40:01.819Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:40:06.645Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:40:14.313Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:40:20.928Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:40:26.445Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:40:31.730Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:40:36.715Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:40:40.975Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:40:46.067Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:40:52.134Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:40:57.146Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:41:01.733Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:41:08.431Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:41:14.712Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:41:19.075Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:41:26.776Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:41:31.134Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:41:36.813Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:41:41.545Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:41:46.190Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:41:51.328Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:41:57.948Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:42:06.863Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:42:11.912Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:42:17.538Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:42:22.292Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:42:27.727Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:42:32.314Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:42:37.430Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:42:43.472Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:42:48.808Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:42:54.245Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:43:00.305Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:43:06.018Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:43:11.413Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:43:16.864Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:43:21.762Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:43:27.014Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:43:31.744Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:43:39.396Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:43:43.716Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:43:47.763Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:45:36.265Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T15:45:50.928Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:45:57.322Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:46:02.672Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:46:08.700Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:46:13.668Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:46:20.426Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:46:25.860Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:46:31.513Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:46:36.465Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:46:40.998Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:46:45.816Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:46:51.632Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:46:57.938Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:47:02.576Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:47:07.629Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:47:14.018Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:47:19.330Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:47:24.541Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:47:29.460Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:47:45.490Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:48:23.134Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T15:48:42.147Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:48:48.171Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:48:53.526Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:48:58.067Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:49:03.723Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:49:08.590Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:49:12.896Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:49:18.054Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:49:22.793Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:49:29.097Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:49:35.400Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:49:42.159Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:49:47.272Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:49:52.672Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:49:58.039Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:50:03.368Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:50:08.930Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:50:15.391Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T15:50:38.929Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:50:44.654Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:50:50.568Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:50:55.287Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T15:51:07.750Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:51:12.774Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:51:24.030Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:51:29.681Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:51:39.750Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T15:51:56.783Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:52:01.411Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:52:06.903Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:52:11.816Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:52:28.000Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:52:33.222Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:52:38.593Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T15:52:43.241Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T15:53:35.807Z] undefined [31merror[39m: error has occured 
+[2023-08-17T16:39:17.584Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T16:42:45.103Z] undefined [31merror[39m: error has occured 
+[2023-08-17T16:44:40.954Z] undefined [31merror[39m: error has occured 
+[2023-08-17T16:44:57.265Z] undefined [32minfo[39m: employee created
+[2023-08-17T16:44:57.290Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T17:54:20.812Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T17:54:27.922Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T17:55:18.006Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T17:56:03.718Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T17:56:05.091Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T17:56:21.933Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T17:56:35.081Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T17:56:37.147Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T17:57:21.372Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T17:58:09.660Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T17:58:18.192Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T17:58:20.150Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T17:58:23.017Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T17:58:38.207Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T17:58:39.241Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T17:59:10.481Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T17:59:24.432Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T17:59:29.012Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T17:59:32.501Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T17:59:44.629Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T17:59:48.285Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T17:59:51.196Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T17:59:54.170Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T17:59:57.092Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T18:00:01.915Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T18:00:05.514Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T18:00:29.615Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T18:00:32.019Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T18:00:43.567Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T18:04:53.557Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T18:04:59.376Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T18:05:05.889Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T18:06:37.826Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T18:06:42.725Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T18:06:46.558Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T18:06:48.828Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T18:06:51.193Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T18:06:52.976Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T18:12:18.154Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T18:12:18.244Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T18:12:18.313Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T18:12:18.365Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T18:12:27.234Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T18:12:59.617Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T18:13:14.770Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T18:13:18.018Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T18:13:19.310Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T18:13:21.111Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T18:16:10.123Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T18:16:10.209Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T18:16:16.368Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T18:16:18.387Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T18:16:24.867Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T18:17:15.640Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T18:17:51.980Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T18:18:11.442Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T18:18:15.186Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T18:18:24.826Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T18:18:28.410Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T18:19:23.028Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T18:19:23.967Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T18:19:25.421Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T18:21:01.728Z] undefined [32minfo[39m: user has logged in
+[2023-08-17T18:27:40.601Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T18:31:06.596Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T18:31:06.684Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T18:33:43.020Z] undefined [32minfo[39m: user has logged in
+[2023-08-17T18:34:27.615Z] undefined [32minfo[39m: employee updated
+[2023-08-17T18:41:14.926Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T18:47:28.841Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T18:47:36.575Z] undefined [32minfo[39m: employee has been deleted
+[2023-08-17T18:47:46.351Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T18:52:49.345Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T19:01:42.857Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T19:01:50.806Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T19:01:53.411Z] undefined [32minfo[39m: employee obtained with id
+[2023-08-17T19:02:02.216Z] undefined [32minfo[39m: all employees obtained
+[2023-08-17T19:13:48.881Z] undefined [32minfo[39m: all employees obtained
+[2023-08-18T04:49:32.519Z] undefined [32minfo[39m: all employees obtained
+[2023-08-18T04:54:47.685Z] undefined [32minfo[39m: all employees obtained
+[2023-08-18T05:03:31.545Z] undefined [32minfo[39m: all employees obtained
+[2023-08-18T08:24:06.880Z] undefined [32minfo[39m: all employees obtained

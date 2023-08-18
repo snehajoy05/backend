@@ -39,13 +39,13 @@ class UpdateEmployeeDto {
 
     @IsOptional()
     @IsNotEmpty()
-    @IsString()
+    @IsNumber()
     experience : number;
 
     @IsNotEmpty()
-    @IsString()
+    @IsNumber()
     @IsOptional()
-    departmentId:string;
+    departmentId:number;
 
 
 }

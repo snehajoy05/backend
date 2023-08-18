@@ -12,6 +12,7 @@ import authorize from "../middleware/authorize.middleware";
 import UpdateEmployeeDto from "../dto/update-employee";
 import { Role } from "../utils/role.enum";
 import logger from "../logger/logger";
+import LoginEmployeeDto from "../dto/create-logindto";
 
 class EmployeeController{
     public router:express.Router;
@@ -31,7 +32,7 @@ class EmployeeController{
         const reqStart=Date.now();
         const employees= await this.employeeService.getAllEmployees();
         logger.info("all employees obtained");
-        res.status(200).send({data:employees,errors:null,message:"OK",meta:{length:Employee.length,took:Date.now()}})};
+        res.status(200).send({data:employees,errors:null,message:"OK",meta:{length:Employee.length,took:Date.now()-reqStart,total:Employee.length}})};
 
     getAllEmployeesById= async (req:express.Request, res:express.Response,next:NextFunction)=>{
         try{
@@ -40,7 +41,7 @@ class EmployeeController{
 
         const employee= await this.employeeService.getAllEmployeeById(employeeId);
         logger.info("employee obtained with id");
-        res.status(200).send({data:employee,errors:null,message:"OK",meta:{length:Employee.length,took:Date.now()}})}catch (error){
+        res.status(200).send({data:employee,errors:null,message:"OK",meta:{length:Employee.length,took:Date.now()-reqStart,total:Employee.length}})}catch (error){
             logger.error("some error has occured");
             next(error)
         }
@@ -50,9 +51,9 @@ class EmployeeController{
 
         try{
             const createEmployeeDto= plainToInstance(CreateEmployeeDto,req.body);
+            const errors=await validate(createEmployeeDto);
             const reqStart=Date.now();
 
-            const errors=await validate(createEmployeeDto);
             if(errors.length>0){
                 logger.error("error has occured ");
                 throw new ValidationException(400,"Validation error",errors);
@@ -60,7 +61,7 @@ class EmployeeController{
             const employeeDTO: CreateEmployeeDto = req.body;
             const employee= await this.employeeService.createEmployee(employeeDTO);
             logger.info("employee created");
-            res.status(200).send({data:employee,errors:null,message:"OK",meta:{length:Employee.length,took:Date.now()}}); 
+            res.status(200).send({data:employee,errors:null,message:"OK",meta:{length:Employee.length,took:Date.now()-reqStart,total:Employee.length}}); 
 
         }catch(error){
             next(error);
@@ -72,6 +73,11 @@ class EmployeeController{
     )=>{
         const {username,password}=req.body;
         try{
+            const errors=await validate(LoginEmployeeDto);
+            if(errors.length>0){
+                logger.error("error has occured ");
+                throw new ValidationException(400,"Validation error",errors);
+            }
             const {token,employee} = await this.employeeService.loginEmployee(username,password);
             logger.info("user has logged in");
             res.status(200).send({data:token,employeedetails:employee,errors:null,message:"OK"})

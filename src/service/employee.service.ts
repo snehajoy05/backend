@@ -46,12 +46,14 @@ class EmployeeService{
             newAddress.pin = employeeDTO.address.pin;
             emp.address = newAddress;
 
+
             // fetch dep employeeDTO.departmentId
             const department=await this.departmentService.getDepartmentById(employeeDTO.departmentId);
             if(!department){
                 throw new HttpException(401,"department not found");
             }
             emp.department=department;
+            emp.departmentId=employeeDTO.departmentId;
    
         return this.employeeRepository.createEmployee(emp);
     }

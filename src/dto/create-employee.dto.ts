@@ -13,10 +13,6 @@ name:string;
 @IsString()
 username: string;
 
-// @IsNotEmpty()
-// @IsString()
-// email: string;
-
 @IsNotEmpty()
 @ValidateNested({each:true})
 @Type(()=> CreateAddressDto)

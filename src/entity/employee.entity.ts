@@ -14,12 +14,6 @@ class Employee extends AbstractEntity{
     @Column()
     username: string;
 
-    // @Column()
-    // email:string;
-
-    // @Column({nullable: true})
-    // age:number;
-
     @Column()
     password:string;
 
@@ -37,9 +31,11 @@ class Employee extends AbstractEntity{
 
  
     @ManyToOne(() => Department,(department)=>department.employees,{cascade:true})
-    @JoinColumn()
+    @JoinColumn({name: 'department'})
     department :Department;
 
+    @Column({name: 'department'})
+    departmentId : number;
     
 }
 

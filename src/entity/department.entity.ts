@@ -6,8 +6,6 @@ import Employee from "./employee.entity";
 
 class Department extends AbstractEntity{
 
-
-
     @Column()
     department_name:string;
 
